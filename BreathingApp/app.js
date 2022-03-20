@@ -16,7 +16,7 @@ const growCircle = () => {
   circleProgress.classList.add("circle-grow");
   setTimeout(() => {
     circleProgress.classList.remove("circle-grow");
-  }, 8000);
+  }, 7000);
 };
 
 // Breathing Instructions
@@ -32,7 +32,7 @@ const breathTextUpdate = () => {
       instructions.innerText = "Hold Breath";
       setTimeout(() => {
         instructions.innerText = "Exhale Breath Slowly";
-      }, 4000);
+      }, 3000);
     }, 4000);
   }
 };
@@ -50,7 +50,7 @@ const breathingApp = () => {
     }
     growCircle();
     breathTextUpdate();
-  }, 12000);
+  }, 13000);
 };
 
 // Start Breathing
